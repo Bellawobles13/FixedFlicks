@@ -41,3 +41,33 @@ body {
   animation-duration:3s;
   animation-fill-mode:forwards;
 }
+
+@keyframes content{
+  0%{left:-1500px;}
+  100%{left:0px;}
+}
+
+.btn{
+  display:inline-block;
+  color:white;
+  text-decoration:none;
+  padding:1rem 2rem;
+  border:white 1px solid;
+  margin-top:40px;
+  opacity:0;
+  animation-name:btn;
+  animation-duration:3s;
+  animation-delay:3s;
+  animation-fill-mode:forwards;
+  transition-property:transform;
+  transition-duration:1s;
+}
+
+@keyframes btn {
+  0% {Opacity:0;}
+  100% {Opacity:1;}
+}
+
+a:hover {
+  transform:rotateY(180deg);
+}
