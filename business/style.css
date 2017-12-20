@@ -1,0 +1,107 @@
+body {
+  background-color:black;
+}
+
+.flexbox {
+  background-color:white;
+  display:flex;
+}
+
+h1 {
+  text-align:center;
+  color:white;
+}
+a:link, a:visited {
+  background-color:white;
+  text-decoration:none;
+  padding:10px 15px;
+  flex:1;
+  transition-property:background-color;
+  transition-duration:.5s;
+  color:blue;
+}
+
+a:hover {
+  background-color:black;
+  color:white;
+}
+
+a:active {
+  background-color:grey;
+  color:purple;
+}
+
+.body {
+  display:flex;
+  margin:10px;
+}
+
+.main {
+  flex:4;
+  background-color:purple;
+  margin-right:10px;
+}
+
+.side {
+  background-color:white;
+  flex:1;
+  color:purple;
+}
+
+.products {
+  display:flex;
+  justify-content:space-between;
+}
+
+.feature1 {
+  flex:1;
+  background-color:purple;
+  padding:5px;
+  margin:20px 10px auto 10px;
+  text-align:center;
+  color:white;
+}
+
+.feature2 {
+  flex:1;
+  background-color:white;
+  padding:5px;
+  margin:20px 10px auto 10px;
+  text-align:center;
+  color:purple;
+}
+.btn {
+  color:purple;
+  text-decoration:none;
+}
+
+h2 {
+  padding:10px;
+}
+
+.maincontactus{
+  flex:4;
+  background-color:purple;
+  margin-right:10px;
+}
+
+.bodycontactus {
+  display:flex;
+  margin:10px;
+  flex-direction:row;
+}
+
+.contactusside {
+  flex:4;
+}
+
+#ad {
+  margin:10px;
+}
+
+p {
+  padding:10px;
+  color:white;
+}
+
+
