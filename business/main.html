@@ -1,0 +1,52 @@
+<!DOCTYPTE html>
+<html>
+  <head>
+    <title>Fixed Flicks</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+    <h1>Fixed Flicks</h1>
+    <div class="flexbox">
+        <a href="main.html">Home</a>
+        <a href="contactus.html">Contact Us</a>
+        <a href="#">Products and Services</a>
+    </div>
+    <div class="body">
+        <div class="main">
+        <h1>Welcome</h1>
+        <p>Welcome to the Fixed Flickswebsite.Here is where you can find the best movie.Just tell us your favorite genre and we will find the best movie for you.</p>
+        
+        </div>
+        <div class="side">
+        <img id="ad" src="https://bellawobles13.github.io/Howto/images/pic.jpg">          <ul> 
+            <li>Best Actors</li>
+            <li>Best Directors</li>
+            <li>Movie Awards lists </li>
+          </ul>
+        </div>
+      </div>
+      <button id="hidebutton" onclick="hideOffers()">Hide Offers</button>
+      <div id="specialoffers" class="Products">
+        <div class="feature1">
+          <h2>Movie Genere</h2> 
+          <p> Find the perfect movie gener for you </p>
+          <p><a href="#" class=""btn>Learn More</a></p>
+        </div>
+        <div class="feature2">
+          <h2>Favorite Movies</h2>
+          <p style="color:purple;">Keep a list of your favorite movies</p>
+          <p><a href="#" class=""btn>Learn More</a></p>
+        </div>
+      </div>
+    <script>
+      function hideOffers(){
+        var x = document.getElementById("specialoffers");
+        x.style.display="none";
+        var y = document.getElementById("hidebutton");
+        y.style.display="none";
+      }
+    </script>
+    
+  </body>
+  
+</html>
